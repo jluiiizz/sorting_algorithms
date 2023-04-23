@@ -47,9 +47,9 @@ int main() {
     int array[] = {101, 20, 42, 42, 42, 2, 4, 4, 5, 9, 2, 2, 53, 42};
     int n = sizeof(array) / sizeof(array[0]);
 
-    printArray(array, n);
-    countingSort(array, n);
-    printArray(array, n);
+    print_array(array, n);
+    counting_sort(array, n);
+    print_array(array, n);
 
     return 0;
 }
